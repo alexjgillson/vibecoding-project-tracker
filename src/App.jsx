@@ -18,7 +18,7 @@ import { useState, useEffect } from 'react';
  *   - M11 anchors       : the Anchor Board above the Kanban.
  *   - M12 secret-sauce  : the one open-ended thing that makes your tracker yours.
  *
- * Search the file for `TODO M<n>` to find the right hook for each milestone.
+ * Search the file for `TODO M<n>`  to find the right hook for each milestone.
  */
 
 /**
