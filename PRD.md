@@ -165,3 +165,25 @@ The hackathon is "done" when all 13 milestone tags are pushed to your repo and v
 ---
 
 *PRD version: hackathon-starter v1 · maintained by Prof. Dr. Ignacio Alvarez*
+
+## requirements
+Functional Requirements
+- Users can create tasks in the To Do column
+- Tasks can be opened to a modal with editable information: Title, Description, type, assignee
+- Users can delete tasks from the board.
+- Tasks should store and display when they were created.
+- Users should be able to drag tasks between columns to change their status.
+- Users should also be able to edit tasks from within the openable modal.
+- Unfinished tasks should change colour to indicate how close they are to a deadline.
+- Finished tasks (in the finished column) should be greyed out but still interactable.
+
+## Non-functional Requirements
+- Drag and drop functionality should work within 100ms
+- Boards should load within 2 seconds on the university WiFi, with up to 500 cards
+- Webpage should be accessible to users with limited vision, including compatibility with screen readers.
+- Webpage should be responsive across desktop, mobile and tablet browsers.
+
+## Data Requirements
+- Login should be validated on entry (emails, passwords etc)
+  - Data should be properly indexed.
+  - Database queries should be as optimized, especially when we expect to call them multiple times when loading.

@@ -12,7 +12,7 @@
 
 One sentence that captures the feeling the tracker should leave you with.
 
-`<TODO>`
+The tracker should be intuitive and feel easy to integrate into a workflow.
 
 Two or three references that capture the vibe (links to dribbble shots, screenshots of apps you admire, Pinterest boards — anything visual):
 
@@ -54,6 +54,8 @@ These are the colors the build milestones will reference. Once chosen, paste the
 | `due-warning` | `<TODO>` | Less than 24 hours |
 | `due-overdue` | `<TODO>` | Past due |
 | `due-neutral` | `<TODO>` | Done (overrides date) |
+
+I'd like to work with shades of the same colour, probably red, so that it's more accessible to colourblind users
 
 ## 3. Typography
 
