@@ -36,7 +36,7 @@ Each task carries the prompt context that produced it, so any teammate can click
 3. Move the task across columns as you work.
 4. When stuck, click "Copy as Prompt Context" on a task and paste it into Claude/ChatGPT/Cursor to continue.
 5. Hand off a task to a teammate with one dropdown.
-6. Drop final deliverable links into the Anchor Board as you produce them.
+6. Drop final deliverable links into the Anchor Board as you produce them.2
 
 ## 5. Data model
 
