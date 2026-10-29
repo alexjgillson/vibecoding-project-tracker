@@ -384,7 +384,7 @@ export default function App() {
               </div>
               <div className="p-4" key={stage.id}>
                 {tasks.filter(task => task.stage === stage.id && (showAllTasks || task.assignee === currentUser)).map(foundTask => (
-                  <div key={foundTask.id} className={`bold underline-offset-2 relative aspect-square min-h-fit p-4 hover:bg-red-400 overflow-hidden ${foundTask.type === 'Feature' ? "hover:bg-blue-400" : "hover:bg-orange-300"}`}>
+                  <div key={foundTask.id} className={`bold underline-offset-2 relative aspect-square min-h-fit p-4 overflow-hidden ${foundTask.type === 'Feature' ? "hover:bg-blue-400" : "hover:bg-orange-300"}`}>
                     <h1 className="text-xl">{foundTask.title}</h1>
                     <p className={`text-xl absolute top-4 right-4  font-bold ${((new Date).getDay() - new Date(foundTask.dueDate).getDay()) >= 1 ? 'text-red-500' : 'text-black'}`}>
                       {(foundTask.stage === "done") ? '' : ((new Date).getDay() - new Date(foundTask.dueDate).getDay()) >= 1 ? 'Overdue ⚠' : (-2 > ((new Date).getDay() - new Date(foundTask.dueDate).getDay()) < 1 ? 'Due soon ⚠' : '')}</p>

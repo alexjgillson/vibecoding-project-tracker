@@ -186,4 +186,4 @@ Functional Requirements
 ## Data Requirements
 - Login should be validated on entry (emails, passwords etc)
   - Data should be properly indexed.
-  - Database queries should be as optimized, especially when we expect to call them multiple times when loading.
+- Database queries should be as optimized, especially when we expect to call them multiple times when loading.
